@@ -19,6 +19,8 @@ This class create 2D array from dictionary where index can by negative and posit
     
 - ## Examples #1:
 
+    `var array2d = Array2D.new()`
+
 	`array2d.Set(0,0).var_float = 1.5`
 
 	`array2d.Set(-1,100).var_int = 1`
@@ -74,6 +76,8 @@ This class create 2D array from dictionary where index can by negative and posit
     } 
 
 - ## Examples #2:
+
+    `var array2d = Array2D.new()`
 
 	`array2d.Set(0,0).var_float = 1.5`
 
