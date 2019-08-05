@@ -115,3 +115,21 @@ This class create 2D array from dictionary where index can by negative and posit
         }
     }
 
+- ## Save/Load example
+```
+	array2d.Save("res://test.data")
+
+	array2d.Load("res://test.data")
+```
+- ## Read value examples
+```
+	if !array2d.Get(-5,-5).empty():
+		if array2d.Get(-5,-5).has("value1"): print(array2d.Get(-5,-5).value1)
+	if !array2d.Get(5,5).empty():
+		if array2d.Get(5,5).has("value1"): print(array2d.Get(5,5).value1)
+		if array2d.Get(5,5).has("value2"): print(array2d.Get(5,5).value2)
+		if array2d.Get(5,5).has("value3"): print(array2d.Get(5,5).value3)
+		if array2d.Get(5,5).has("value4"): print(array2d.Get(5,5).value4)
+```
+
+
