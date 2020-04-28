@@ -1,27 +1,9 @@
 {
-	"-1,100": {
-		"var_int": 1
-	},
-	"-11,-2": {
-		"var_bool": true
-	},
-	"-4,5": {
-		"any_var_name": {
-			"a": 1,
-			"b": 2
-		}
+	"-5,-5": {
+		"value1": -10
 	},
 	"0,0": {
-		"var_float": 1.5
-	},
-	"1,2": {
-		"var_strinf": "Any string",
-		"var_vector2": "(2, 1)"
-	},
-	"10,-50": {
-		"var_color": "1,0,0,1"
-	},
-	"20,10": {
+		"example": "example of unlimited 2d array",
 		"var_array": [
 			1,
 			2,
@@ -29,6 +11,22 @@
 			4,
 			5,
 			6
-		]
+		],
+		"var_bool": true,
+		"var_color": "1,0,0,1",
+		"var_float": 1.5,
+		"var_int": 1,
+		"var_strinf": "Any string",
+		"var_vector2": "(2, 1)"
+	},
+	"10,10": {
+		"includedArray2D": "[Reference:1140]"
+	},
+	"5,5": {
+		"value1": 10,
+		"value2": 11,
+		"value3": 12,
+		"value33": 12,
+		"value4": "test"
 	}
 }

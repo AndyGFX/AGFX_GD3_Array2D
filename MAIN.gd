@@ -21,12 +21,13 @@ func _ready():
 	array2d.Set(5,5).value3=12
 	array2d.Set(5,5).value33=12
 	array2d.Set(5,5).value4="test"
-
+	
+		
 #   CLEAR cell at [x,y]
 #	array2d.Clear(5,5)
 
 #	SAVE array to file
-#	array2d.Save("res://test.data")
+	array2d.Save("res://test.data")
 
 # LOAD data to array
 #	array2d.Load("res://test.data")
