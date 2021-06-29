@@ -19,9 +19,6 @@
 		"var_strinf": "Any string",
 		"var_vector2": "(2, 1)"
 	},
-	"10,10": {
-		"includedArray2D": "[Reference:1140]"
-	},
 	"5,5": {
 		"value1": 10,
 		"value2": 11,
